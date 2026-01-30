@@ -1,10 +1,10 @@
-if (input.acceleration(Dimension.X) > 15) {
+if (input.acceleration(Dimension.X) > 120) {
     basic.showLeds(`
+        # . # . #
+        # . # . #
+        # . # . #
         . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
+        # . # . #
         `)
     basic.pause(100)
 }
